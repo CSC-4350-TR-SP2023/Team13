@@ -1,2 +1,4 @@
 # Team13
-Wi-Find
+
+# Wi-Find StoryBoard #
+![StoryBoard](./CalvinTran_SB.jpg)
