@@ -1,4 +1,5 @@
-let seller = ["Ruth Jefferson", "Byron Elliott",
+function generateHTMLList(){
+    let seller = ["Ruth Jefferson", "Byron Elliott",
 "Sandra Montes", "Marwa Meadows", "Wilma Cohen", "Hilda Teresita"];
  
 let list = document.getElementById("myList");
@@ -9,3 +10,5 @@ seller.forEach((item) => {
   li.innerText = item;
   list.appendChild(li);
 });
+}
+
