@@ -11,12 +11,18 @@ function generateHTMLList() {
         list.appendChild(li);
     });
 }
-function generateButtonList(){
+function generateButtonList() {
     let x = document.querySelectorAll("#seller-list > li");
-    for(let i=0;i<x.length;i++){
-        var btn = document.createElement("button");
+    for (let i = 0; i < x.length; i++) {
+        //Create Button for each list item
+        let btn = document.createElement("button");
         btn.appendChild(document.createTextNode("View Details"));
-        x[i].appendChild(btn);
+        //Create wrapper for each button
+        let wrapper = document.createElement("div");
+        wrapper.classList.add("button-wrapper");
+        wrapper.appendChild(btn);
+
+        x[i].appendChild(wrapper);
     }
 }
 
