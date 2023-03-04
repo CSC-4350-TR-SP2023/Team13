@@ -1,0 +1,18 @@
+
+
+.wrapper {
+    display: grid;
+    padding: 10%;
+    grid-template-columns: 2fr 1fr;
+    height: auto
+}
+.map {
+    grid-column: 1 / 2;
+}
+.sidebar {
+    grid-column: 2 /3;
+}
+.map, .sidebar{
+    padding: 20px;
+    border: 1px solid black;
+}
