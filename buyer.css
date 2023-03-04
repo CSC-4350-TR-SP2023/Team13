@@ -21,10 +21,15 @@
 .sidebar ul{
     margin: 0; 
     padding: 0;
+    
 }
 .sidebar li{
+    font-size: 20px;
     list-style-type: none;
-    padding: 20px;
+    transition: all .35s;
+    padding: 10px 0px 5px 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 .sidebar li:not(:last-child){
     border-bottom: 1px solid black;
@@ -32,3 +37,26 @@
 .sidebar li:hover{
     background-color: lightblue;
 }
+#seller-list .button-wrapper{
+    
+}
+#seller-list button{
+  width: fit-content;
+  height: 50px;
+  line-height: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+}
+#seller-list button:hover{
+    width: fit-content * 0.5;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
