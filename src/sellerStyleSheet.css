@@ -1,5 +1,7 @@
-body{
+*{
     font-family: SansSerif, sans-serif;
+}
+body{
     background-color: whitesmoke;
 }
 
