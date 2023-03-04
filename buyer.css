@@ -4,15 +4,31 @@
     display: grid;
     padding: 10%;
     grid-template-columns: 2fr 1fr;
-    height: auto
+    height: 400px;
+
+}
+.map,.sidebar{
+    border: 1px solid black;
 }
 .map {
     grid-column: 1 / 2;
 }
 .sidebar {
     grid-column: 2 /3;
+    border-left: none;
+    overflow-y: scroll;
 }
-.map, .sidebar{
+.sidebar ul{
+    margin: 0; 
+    padding: 0;
+}
+.sidebar li{
+    list-style-type: none;
     padding: 20px;
-    border: 1px solid black;
+}
+.sidebar li:not(:last-child){
+    border-bottom: 1px solid black;
+}
+.sidebar li:hover{
+    background-color: lightblue;
 }
