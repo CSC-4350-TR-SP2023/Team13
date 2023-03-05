@@ -44,3 +44,21 @@ form input[type="submit"] {
     border: 1px solid darkgrey;
     text-align: center;
 }
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 100px;
+  margin-left: 0px;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid grey;
+  padding: 15px;
+}
+th {
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
+}
