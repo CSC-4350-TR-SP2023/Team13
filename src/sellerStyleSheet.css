@@ -35,15 +35,15 @@ label{
 .form-flex-container{
     display: flex;
     justify-content: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 20px;
 }
 input[type=text]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-}
-input[type=radio]{
-
 }
 p{
     font-size: large;
@@ -59,7 +59,30 @@ input[type=submit] {
     cursor: pointer;
     margin: auto;
 }
+.mflex1{
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 20px;
 
+
+}
+.mflex2{
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+    padding: 20px;
+}
+.pflex1{
+    display: flex;
+    text-align: initial;
+    width: 50%;
+}
+.pflex2{
+    display: flex;
+}
 h1{
     text-align: center;
     font-size: xx-large;
