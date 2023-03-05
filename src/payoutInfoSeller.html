@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wi-Find Seller Payout</title>
+    <link rel="stylesheet" href="sellerStyleSheet.css"/>
+</head>
+<body>
+<a class="logo" href="Login.html">
+    <header>Wi-Find</header>
+</a>
+<div class="nav" >
+    <a href="#">Main</a>
+    <a href="#">Profile</a>
+    <a href="#">Sell Wi-Fi</a>
+    <a href="#">Buy Wi-Fi</a>
+</div>
+<h1>Payment Information</h1>
+<div class="form-flex-container">
+    <form action="paymentinfoinput.php">
+
+        <label for="namecard">Name On Card</label>
+        <input type="text" name="namecard" id="namecard">
+        <div class="pflex1">
+            <label for="cardnum">Card Number</label>
+            <input type="text" name="cardnum" id="cardnum">
+        </div>
+        <div class="pflex1">
+            <label for="expdate">Exp. Date</label>
+            <input type="text" name="expdate" id="expdate" style="order: 3">
+        </div>
+            <div class="pflex1">
+                <label for="ccv">CCV</label>
+                <input type="text" name="ccv" id="ccv" style="order: 2">
+            </div>
+    </form>
+</div>
+</body>
+</html>
