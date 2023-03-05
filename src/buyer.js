@@ -21,7 +21,7 @@ function createMile() {
         //Create Button for each list item
         let miles = document.createElement("div");
         miles.setAttribute("class","mile-display")
-        miles.innerText = "( Miles )";
+        miles.innerText = "(10 Miles )";
         //Create wrapper for each button
 
         x[i].appendChild(miles);
