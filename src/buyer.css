@@ -15,13 +15,6 @@
     grid-column: 1 / 2;
     grid-row: 1;
 }
-.table-wrapper {
-    display: grid;
-    padding: 10%;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    height: 100px;
-}
 .sidebar {
     grid-column: 2 /3;
     grid-row: 1;
@@ -53,12 +46,12 @@
     float:right;
 }
 
-
-
-
-#seller-info {
+.table-wrapper {
     display: grid;
     justify-items: center;
+}
+#seller-info {
+    
 }
 #seller-info table,tr,th,td {
     border:1px solid black;
@@ -69,5 +62,5 @@
 }
 #seller-info table{
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
 }
