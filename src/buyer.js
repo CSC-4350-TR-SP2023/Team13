@@ -61,15 +61,15 @@ function checkForClick() {
     });
 }
 
-function displayName(sellerName = "") {
+function displayName(name = "") {
     const sellerInfo = document.getElementById("seller-info");
 
     sellerInfo.style.visibility = "visible";
 
-    const header = sellerInfo.querySelector("h2");
+    const sellerNames = document.querySelectorAll('[id^="seller-name"]');
 
-    header.innerText = sellerName;
-
-
+    sellerNames.forEach(sellerName => {
+        sellerName.innerText = name;
+    });
 }
 
