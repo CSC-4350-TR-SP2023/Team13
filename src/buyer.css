@@ -79,6 +79,10 @@ h1{
     justify-items: center;
 }
 #seller-info table,tr,th,td {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: none;
+    border-collapse: collapse;
     border:1px solid black;
     width: 50%;
 }
