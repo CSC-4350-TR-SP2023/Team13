@@ -1,4 +1,6 @@
-body {background-color: white;}
+body {
+    background-color: white;
+}
 .content-wrapper{
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
@@ -12,10 +14,12 @@ body {background-color: white;}
     grid-template-columns: 2fr 1fr;
     justify-content: center;    
     height: 40vh;
+    padding: 0px 0px 10px 0px;
 }
 h1{
     text-align: center;
     text-decoration: underline;
+    padding: 10px 0px 10px 0px;
 }
 .map,.sidebar{
     border: 1px solid black;
