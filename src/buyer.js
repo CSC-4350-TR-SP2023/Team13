@@ -1,4 +1,4 @@
-function generateHTMLList() {
+function createHTMLList() {
     let seller = ["Ruth Jefferson", "Byron Elliott",
         "Sandra Montes", "Marwa Meadows", "Wilma Cohen", "Hilda Teresita"];
 
@@ -8,13 +8,14 @@ function generateHTMLList() {
     //create list for each seller
     seller.forEach((item) => {
         let li = document.createElement("li");
-        li.innerText = item + "(10 Miles)";
+        li.innerText = item;
         li.setAttribute("id", "seller-" + count);
         list.appendChild(li);
         count++;
     });
 }
-// function generateButtonList() {
+
+// function create() {
 //     let x = document.querySelectorAll("#seller-list > li");
 //     for (let i = 0; i < x.length; i++) {
 //         //Create Button for each list item
