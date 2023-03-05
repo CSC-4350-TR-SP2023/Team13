@@ -15,20 +15,17 @@ function createHTMLList() {
     });
 }
 
-// function create() {
-//     let x = document.querySelectorAll("#seller-list > li");
-//     for (let i = 0; i < x.length; i++) {
-//         //Create Button for each list item
-//         let btn = document.createElement("button");
-//         btn.appendChild(document.createTextNode("View Details"));
-//         //Create wrapper for each button
-//         let wrapper = document.createElement("div");
-//         wrapper.classList.add("button-wrapper");
-//         wrapper.appendChild(btn);
+function createMile() {
+    let x = document.querySelectorAll("#seller-list > li");
+    for (let i = 0; i < x.length; i++) {
+        //Create Button for each list item
+        let miles = document.createElement("div");
+        miles.appendChild("( Miles )");
+        //Create wrapper for each button
 
-//         x[i].appendChild(wrapper);
-//     }
-// }
+        x[i].appendChild(miles);
+    }
+}
 function checkForClick(){
     const sellerList = document.querySelectorAll('li[id^="seller-');
     sellerList.forEach(sellerListItem => {
