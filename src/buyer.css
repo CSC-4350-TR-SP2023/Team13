@@ -1,7 +1,7 @@
 body {
     background-color: white;
 }
-.content-wrapper{
+#buyer-content-wrapperr{
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -16,7 +16,7 @@ body {
     height: 40vh;
     padding: 0px 0px 10px 0px;
 }
-h1{
+#buyer-content-wrapper h1{
     text-align: center;
     text-decoration: underline;
     padding: 10px 0px 10px 0px;
@@ -63,7 +63,6 @@ h1{
     padding: 2px;
 
 }
-
 .mile-display{
     /* Adjust color based on distance*/
 }
