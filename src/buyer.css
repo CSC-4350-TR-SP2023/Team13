@@ -206,3 +206,7 @@ body {
 .order-detail tr{
     background-color: #f2f2f2;
 }
+.order-detail th, .seller-t th{
+    font-size: 15px;
+    padding: 20px;
+}
