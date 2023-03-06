@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Wi-Find Seller Payout</title>
-    <link rel="stylesheet" href="sellerStyleSheet.css" />
+    <link rel="stylesheet" href="sellerStyleSheet.css"/>
 </head>
-
 <body>
     <div id="nav-placeholder"></div>
     <script src="navbar.js"></script>
-    <h1>Payment Information</h1>
-    <div class="form-flex-container">
-        <form action="paymentinfoinput.php">
-
-            <label for="namecard">Name On Card</label>
-            <input type="text" name="namecard" id="namecard">
-            <div class="pflex1">
-                <label for="cardnum">Card Number</label>
-                <input type="text" name="cardnum" id="cardnum">
-            </div>
-            <div class="pflex1">
-                <label for="expdate">Exp. Date</label>
-                <input type="text" name="expdate" id="expdate" style="order: 3">
-            </div>
-            <div class="pflex1">
-                <label for="ccv">CCV</label>
-                <input type="text" name="ccv" id="ccv" style="order: 2">
-            </div>
-        </form>
-    </div>
+<h1>Payment Information</h1>
+    <form id="form-grid" action="paymentinfoinput.php">
+        <div class="grid-item1">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" >
+        </div>
+        <div class="grid-item2">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" >
+        </div>
+            <div class="grid-item3">
+            <label for="cardnum">Card Number</label>
+            <input type="text" name="cardnum" id="cardnum" >
+        </div>
+        <div class="grid-item4">
+                <label for="expdate">Exp. Date(mm/yy)</label>
+                <input type="text" name="expdate" id="expdate" >
+        </div>
+        <div class="grid-item5">
+            <label for="ccv">CCV</label>
+            <input type="text" name="ccv" id="ccv" >
+        </div>
+        <div class="grid-item6">
+            <label for="zip">Zip Code</label>
+            <input type="text" name="zip" id="zip" >
+        </div>
+        <input class="grid-item7" type="submit" value="Submit">
+    </form>
 </body>
-
 </html>
