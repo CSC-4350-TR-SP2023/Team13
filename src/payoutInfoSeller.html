@@ -6,15 +6,8 @@
     <link rel="stylesheet" href="sellerStyleSheet.css"/>
 </head>
 <body>
-<a class="logo" href="Login.html">
-    <header>Wi-Find</header>
-</a>
-<div class="nav" >
-    <a href="#">Main</a>
-    <a href="#">Profile</a>
-    <a href="#">Sell Wi-Fi</a>
-    <a href="#">Buy Wi-Fi</a>
-</div>
+    <div id="nav-placeholder"></div>
+    <script src="navbar.js"></script>
 <h1>Payment Information</h1>
     <form action="paymentinfoinput.php">
         <div class="grid-item1">
@@ -25,13 +18,13 @@
             <label for="lname">Last Name</label>
             <input type="text" name="lname" id="lname" >
         </div>
-        <div class="grid-item3">
+            <div class="grid-item3">
             <label for="cardnum">Card Number</label>
             <input type="text" name="cardnum" id="cardnum" >
         </div>
         <div class="grid-item4">
-            <label for="expdate">Exp. Date</label>
-            <input type="text" name="expdate" id="expdate" >
+                <label for="expdate">Exp. Date</label>
+                <input type="text" name="expdate" id="expdate" >
         </div>
         <div class="grid-item5">
             <label for="ccv">CCV</label>
