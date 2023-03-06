@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Wi-Find Seller Payout</title>
-    <link rel="stylesheet" href="sellerStyleSheet.css"/>
+    <link href="sellerStyleSheet.css" rel="stylesheet"/>
 </head>
 <body>
-    <div id="nav-placeholder"></div>
-    <script src="navbar.js"></script>
+<div id="nav-placeholder"></div>
+<script src="navbar.js"></script>
 <h1>Payment Information</h1>
-    <form id="form-grid" action="paymentinfoinput.php">
-        <div class="grid-item1">
-            <label for="fname">First Name</label>
-            <input type="text" name="fname" id="fname" >
-        </div>
-        <div class="grid-item2">
-            <label for="lname">Last Name</label>
-            <input type="text" name="lname" id="lname" >
-        </div>
-            <div class="grid-item3">
-            <label for="cardnum">Card Number</label>
-            <input type="text" name="cardnum" id="cardnum" >
-        </div>
-        <div class="grid-item4">
-                <label for="expdate">Exp. Date(mm/yy)</label>
-                <input type="text" name="expdate" id="expdate" >
-        </div>
-        <div class="grid-item5">
-            <label for="ccv">CCV</label>
-            <input type="text" name="ccv" id="ccv" >
-        </div>
-        <div class="grid-item6">
-            <label for="zip">Zip Code</label>
-            <input type="text" name="zip" id="zip" >
-        </div>
-        <input class="grid-item7" type="submit" value="Submit">
-    </form>
+<form action="paymentinfoinput.php" id="form-grid">
+    <div class="grid-item1">
+        <label for="fname">First Name</label>
+        <input id="fname" name="fname" type="text">
+    </div>
+    <div class="grid-item2">
+        <label for="lname">Last Name</label>
+        <input id="lname" name="lname" type="text">
+    </div>
+    <div class="grid-item3">
+        <label for="cardnum">Card Number</label>
+        <input id="cardnum" name="cardnum" type="text">
+    </div>
+    <div class="grid-item4">
+        <label for="expdate">Exp. Date(mm/yy)</label>
+        <input id="expdate" name="expdate" type="text">
+    </div>
+    <div class="grid-item5">
+        <label for="ccv">CCV</label>
+        <input id="ccv" name="ccv" type="text">
+    </div>
+    <div class="grid-item6">
+        <label for="zip">Zip Code</label>
+        <input id="zip" name="zip" type="text">
+    </div>
+    <input class="grid-item7" type="submit" value="Submit">
+</form>
 </body>
 </html>
