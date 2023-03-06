@@ -10,10 +10,10 @@
 <body>
     <div id="nav-placeholder"></div>
     <script src="navbar.js"></script>
-    <div class="content-wrapper">
-        <h1 class="wrapper-r1 wrapper-c2 wrapper-center"> Order Description</h1>
-        <div class="wrapper-r2 wrapper-c2 wrapper-center">
-            <div class="seller-info">
+    <div class="content-wrapper-1-1">
+        <div class="seller-t wrapper-r1 wrapper-c1 wrapper-padding-1 wrapper-center">
+            <div class="box">
+                <h1> Order Description</h1>
                 <table>
                     <tr>
                         <th>Seller's Name</th>
@@ -45,9 +45,54 @@
                         <td>999-999-9999</td>
                     </tr>
                 </table>
-                <div class="button">
-                    Confirm to Payment Page
+            </div>
+        </div>
+        <div class="wrapper-r1 wrapping-c2 wrapper-center wrapper-padding-1">
+            
+            <div class="box">
+                <h2>Order Details</h2>
+                <div class="order-detail">
+                    <table>
+                        <tr>
+                            <th><label for="hours">Select number of hours:</label></th>
+                            <th>
+                                <select id="hours" name="hours">
+                                    <option value="1">1 hour</option>
+                                    <option value="2">2 hours</option>
+                                    <option value="3">3 hours</option>
+                                    <option value="4">4 hours</option>
+                                    <option value="5">5 hours</option>
+                                    <option value="6">6 hours</option>
+                                    <option value="7">7 hours</option>
+                                    <option value="8">8 hours</option>
+                                    <option value="9">9 hours</option>
+                                    <option value="10">10 hours</option>
+                                </select>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th> Price per hour:</th>
+                            <th> $100 </th>
+                        </tr>
+                        <tr>
+                            <th> Price:</th>
+                            <th> $100 </th>
+                        </tr>
+                        <tr>
+                            <th> Tax(8%):</th>
+                            <th> $8 </th>
+                        </tr>
+                        <tr>
+                            <th> Total Price:</th>
+                            <th> $108 </th>
+                        </tr>
+                    </table>
                 </div>
+                <a class="flex-center" style="padding-top: 25px;">
+                    <div class="button" style="width:25%;">
+                        Confirm
+                    </div>
+                </a>
             </div>
         </div>
     </div>
