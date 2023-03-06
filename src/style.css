@@ -23,15 +23,20 @@ h1 {
     text-align: center;
     font-size: xx-large;
 }
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 80px;
+}
 .container {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+     width: 95%;
+     margin-bottom: 10px;
 }
 label {
-  text-align: center;
-  width: 100%;
+    text-align: center;
+     width: 100%;
 }
 
 form label {
@@ -49,29 +54,24 @@ form input[type="submit"] {
     border: 1px solid darkgrey;
     text-align: center;
 }
-
 select {
     color: grey;
     margin-left: 20px;
 }
 
-table {
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     border-collapse: collapse;
-    width: 90%;
-    margin: 100px auto 0;
+    width: 70%;
+    margin: 20px auto 0;
 }
-th, td {
-    text-align: center;
-    padding: 8px;
-    border: 1px solid grey;
-    padding: 15px;
-}
-th {
+.grid-item {
     background-color: #f2f2f2;
-    position: sticky;
-    top: 0;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid grey
 }
-
 
 .logo{
     text-align: left;
