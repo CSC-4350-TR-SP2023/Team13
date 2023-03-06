@@ -16,24 +16,31 @@
     <a href="#">Buy Wi-Fi</a>
 </div>
 <h1>Payment Information</h1>
-<div class="form-flex-container">
     <form action="paymentinfoinput.php">
-
-        <label for="namecard">Name On Card</label>
-        <input type="text" name="namecard" id="namecard">
-        <div class="pflex1">
+        <div class="grid-item1">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" >
+        </div>
+        <div class="grid-item2">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" >
+        </div>
+        <div class="grid-item3">
             <label for="cardnum">Card Number</label>
-            <input type="text" name="cardnum" id="cardnum">
+            <input type="text" name="cardnum" id="cardnum" >
         </div>
-        <div class="pflex1">
+        <div class="grid-item4">
             <label for="expdate">Exp. Date</label>
-            <input type="text" name="expdate" id="expdate" style="order: 3">
+            <input type="text" name="expdate" id="expdate" >
         </div>
-            <div class="pflex1">
-                <label for="ccv">CCV</label>
-                <input type="text" name="ccv" id="ccv" style="order: 2">
-            </div>
+        <div class="grid-item5">
+            <label for="ccv">CCV</label>
+            <input type="text" name="ccv" id="ccv" >
+        </div>
+        <div class="grid-item6">
+            <label for="zip">Zip Code</label>
+            <input type="text" name="zip" id="zip" >
+        </div>
     </form>
-</div>
 </body>
 </html>

@@ -62,7 +62,6 @@ input[type=submit] {
 .mflex1{
     display: flex;
     justify-content: center;
-    background-color: darkgrey;
     border-radius: 5px;
     padding: 20px;
 
@@ -71,17 +70,36 @@ input[type=submit] {
 .mflex2{
     display: flex;
     justify-content: center;
-    background-color: darkgrey;
     border-radius: 5px;
     padding: 20px;
 }
-.pflex1{
-    display: flex;
-    text-align: initial;
-    width: 50%;
+form{
+    display:grid;
+    background-color: darkgrey;
+    padding: 10px;
+    grid-template-columns: auto auto ;
+
 }
-.pflex2{
-    display: flex;
+form div{
+    text-align: center;
+    padding: 5px;
+}
+
+.grid-item1{
+
+}
+.grid-item2{
+
+}
+.grid-item3{
+    grid-column-start: span 2;
+
+}
+.grid-item4{
+}
+.grid-item5{
+}
+.grid-item6{
 }
 h1{
     text-align: center;
