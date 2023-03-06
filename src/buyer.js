@@ -75,15 +75,15 @@ function displayName(name = "") {
 // Initialize and add the map
 function initMap() {
     // The location of Uluru
-    const uluru = { lat: -25.344, lng: 131.031 };
+    const gsu = { lat: 33.7531, lng: -84.3853 };
     // The map, centered at Uluru
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
-      center: uluru,
+      zoom: 15,
+      center: gsu,
     });
     // The marker, positioned at Uluru
     const marker = new google.maps.Marker({
-      position: uluru,
+      position: gsu,
       map: map,
     });
   }
