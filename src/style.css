@@ -40,32 +40,36 @@ form label {
     text-align: center;
 }
 form input[type="text"],
+form select[type="opt"],
 form input[type="password"],
 form input[type="submit"] {
     width: 90%;
-    margin: 0px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid darkgrey;
     text-align: center;
 }
 
+select {
+    color: grey;
+    margin-left: 20px;
+}
+
 table {
-  border-collapse: collapse;
-  width: 90%;
-  margin-top: 100px;
-  margin-left: 0px;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 100px auto 0;
 }
 th, td {
-  text-align: center;
-  padding: 8px;
-  border: 1px solid grey;
-  padding: 15px;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid grey;
+    padding: 15px;
 }
 th {
-  background-color: #f2f2f2;
-  position: sticky;
-  top: 0;
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -74,7 +78,7 @@ th {
     font-size: xxx-large;
 }
 a:link,a:visited{
-   color: unset;
+    color: unset;
     text-decoration: unset;
 }
 .nav {
@@ -93,3 +97,4 @@ a:link,a:visited{
     background-color: cornsilk;
     color: black;
 }
+
