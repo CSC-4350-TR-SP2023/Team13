@@ -23,15 +23,20 @@ h1 {
     text-align: center;
     font-size: xx-large;
 }
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 80px;
+}
 .container {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+     width: 95%;
+     margin-bottom: 10px;
 }
 label {
-  text-align: center;
-  width: 100%;
+    text-align: center;
+     width: 100%;
 }
 
 form label {
@@ -40,41 +45,40 @@ form label {
     text-align: center;
 }
 form input[type="text"],
+form select[type="opt"],
 form input[type="password"],
 form input[type="submit"] {
     width: 90%;
-    margin: 0px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid darkgrey;
     text-align: center;
 }
-
-table {
-  border-collapse: collapse;
-  width: 90%;
-  margin-top: 100px;
-  margin-left: 0px;
-}
-th, td {
-  text-align: center;
-  padding: 8px;
-  border: 1px solid grey;
-  padding: 15px;
-}
-th {
-  background-color: #f2f2f2;
-  position: sticky;
-  top: 0;
+select {
+    color: grey;
+    margin-left: 20px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto 0;
+}
+.grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid grey
+}
 
 .logo{
     text-align: left;
     font-size: xxx-large;
 }
 a:link,a:visited{
-   color: unset;
+    color: unset;
     text-decoration: unset;
 }
 .nav {
@@ -93,3 +97,4 @@ a:link,a:visited{
     background-color: cornsilk;
     color: black;
 }
+
