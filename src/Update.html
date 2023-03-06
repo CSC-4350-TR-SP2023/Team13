@@ -5,14 +5,17 @@
     <link rel="stylesheet" href="style.css"/>
     <title>Update Page</title>
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>
-    $(document).ready(function(){
-        $("select").change(function(){
-            if ($(this).val()=="") $(this).css({color: "grey"});
-            else $(this).css({color: "black"});
-        });
-    });
+        function changePlaceholderColor() {
+            var select = document.getElementById("state");
+            var placeholder = select.options[0];
+
+            if (select.value != "") {
+                select.style.color = "black";
+            } else {
+                select.style.color = "grey";
+            }
+        }
     </script>
 
 </head>
@@ -58,7 +61,7 @@
             <input type="text" id="postal" name="postal" placeholder="Postal/Zip Code"><br>
         </label>
         <label>
-            <select type="opt" id="state" name="state">
+            <select type="opt" id="state" name="state" onchange="changePlaceholderColor()">
                 <option value="" disabled selected hidden>State</option>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
