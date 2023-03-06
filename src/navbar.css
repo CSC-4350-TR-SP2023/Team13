@@ -20,7 +20,6 @@
 }
 
 .nav a {
-    float: left;
     color: whitesmoke;  
     text-align: center;
     text-decoration: none;
@@ -41,10 +40,13 @@
 } 
 
 .nav .link{
-    float: left;
-    
+    display: flex;
 }
 .nav #logo-name{
     text-decoration: none;
+}
+.nav .name{
+    text-align: right;
+    flex-grow: 1;
 }
 
