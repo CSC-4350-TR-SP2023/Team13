@@ -10,39 +10,93 @@
 <body>
     <div id="nav-placeholder"></div>
     <script src="navbar.js"></script>
-    <div class="content-wrapper">
-        <table>
-            <h2>Order Description</h2>
-            <tr>
-                <th>Seller's Name</th>
-                <th id="seller-name">Name</th>
-            </tr>
-            <tr>
-                <th>Security Type</th>
-                <th>WEP or WPA or WPA2 </th>
-            </tr>
-            <tr>
-                <td>Amount of Users</td>
-                <td>[0/5]</td>
-            </tr>
-            <tr>
-                <td>Frequency</td>
-                <td>1Ghz or 5Ghz </td>
-            </tr>
-            <tr>
-                <td>Price(per 1GB usage)</td>
-                <td>$100</td>
-            </tr>
-            <tr>
-                <td>Address</td>
-                <td>27 Westport Ave.
-                    Florence, SC 29501</td>
-            </tr>
-            <tr>
-                <td>Contact #</td>
-                <td>999-999-9999</td>
-            </tr>
-        </table>
+    <div class="content-wrapper-1-1">
+        <div class="wrapper-r1 wrapper-c1 wrapper-padding-1 wrapper-center">
+            <div class="box">
+                <h1> Order Description</h1>
+                <div class="order-detail">
+                    <table>
+                        <tr>
+                            <th>Seller's Name</th>
+                            <th>Name</th>
+                        </tr>
+                        <tr>
+                            <th>Security Type</th>
+                            <th>WEP or WPA or WPA2 </th>
+                        </tr>
+                        <tr>
+                            <th>Amount of Users</th>
+                            <th>[0/5]</th>
+                        </tr>
+                        <tr>
+                            <th>Frequency</th>
+                            <th>1Ghz or 5Ghz </th>
+                        </tr>
+                        <tr>
+                            <th>Price(per 1GB usage)</th>
+                            <th>$100</th>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <th>27 Westport Ave.
+                                Florence, SC 29501</th>
+                        </tr>
+                        <tr>
+                            <th>Contact #</th>
+                            <th>999-999-9999</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-r1 wrapping-c2 wrapper-center wrapper-padding-1">
+
+            <div class="box">
+                <h2>Order Details</h2>
+                <div class="order-detail">
+                    <table>
+                        <tr>
+                            <th><label for="hours">Select number of hours:</label></th>
+                            <th>
+                                <select id="hours" name="hours">
+                                    <option value="1">1 hour</option>
+                                    <option value="2">2 hours</option>
+                                    <option value="3">3 hours</option>
+                                    <option value="4">4 hours</option>
+                                    <option value="5">5 hours</option>
+                                    <option value="6">6 hours</option>
+                                    <option value="7">7 hours</option>
+                                    <option value="8">8 hours</option>
+                                    <option value="9">9 hours</option>
+                                    <option value="10">10 hours</option>
+                                </select>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th> Price per hour:</th>
+                            <th> $100 </th>
+                        </tr>
+                        <tr>
+                            <th> Price:</th>
+                            <th> $100 </th>
+                        </tr>
+                        <tr>
+                            <th> Tax(8%):</th>
+                            <th> $8 </th>
+                        </tr>
+                        <tr>
+                            <th> Total Price:</th>
+                            <th> $108 </th>
+                        </tr>
+                    </table>
+                </div>
+                <a class="flex-center" style="padding-top: 25px;">
+                    <div class="button" style="width:25%;">
+                        Confirm
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 
 </body>
