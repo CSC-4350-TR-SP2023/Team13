@@ -97,17 +97,21 @@ input[type=submit] {
 }
 .mgrid1-item4{
     font-size: large;
-
 }
 .mgrid1-item5{
     font-size: large;
-
+    display: none;
+}
+.mgrid1-item4:hover + .mgrid1-item5{
+    display: block;
 }
 .mgrid1-item6{
     font-size: large;
+    grid-row: 4;
 }
 .mgrid1-item7{
     font-size: large;
+    grid-row: 4;
 }
 .mgrid1-item8{
     grid-column: span 1;
