@@ -189,7 +189,7 @@ body {
 }
 
 .button {
-    background-color: #1c87c9;
+    background-color: grey;
     border: none;
     color: white;
     padding: 20px 34px;
@@ -201,7 +201,7 @@ body {
 }
 
 .button:hover {
-    background-color: lightgreen;
+    background-color: darkgray;
 }
 .order-detail tr{
     background-color: #f2f2f2;
