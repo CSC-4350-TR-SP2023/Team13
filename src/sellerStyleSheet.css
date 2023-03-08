@@ -38,7 +38,7 @@ label{
     background-color: darkgrey;
     border-radius: 10px;
     padding: 20px;
-    margin: 50px;
+    margin: 20px 60px;
 
 }
 input[type=text]{
@@ -61,19 +61,70 @@ input[type=submit] {
     cursor: pointer;
     margin: auto;
 }
-.mflex1{
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
+.welcome{
+    font-size: large;
     padding: 20px;
-
-
 }
-.mflex2{
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
+#mgrid1{
+    display: grid;
+    justify-content: left;
+    padding: 10px;
+    background-color: darkgrey;
+    border-radius: 10px;
+    margin: 20px 200px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+}
+#mgrid2{
+    display: grid;
+    justify-content: right;
+    padding: 10px;
+    margin: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-collapse: collapse;
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+.mgrid1-item1{
+    grid-column: span 2;
+}
+.mgrid1-item2{
+    font-size: large;
+}
+.mgrid1-item3{
+    font-size: large;
+}
+.mgrid1-item4{
+    font-size: large;
+}
+.mgrid1-item5{
+    font-size: large;
+    display: none;
+}
+.mgrid1-item4:hover + .mgrid1-item5{
+    display: block;
+}
+.mgrid1-item6{
+    font-size: large;
+    grid-row: 4;
+}
+.mgrid1-item7{
+    font-size: large;
+    grid-row: 4;
+}
+.mgrid1-item8{
+    grid-column: span 1;
+    grid-row: 5;
+}
+.mgrid2-item{
+    background-color: #f2f2f2;
     padding: 20px;
+    text-align: center;
+    border: 1px solid grey
+}
+.mgrid2-item2{
+    grid-column: span 3;
 }
 #form-grid{
     display:grid;
@@ -88,30 +139,19 @@ input[type=submit] {
 #form-grid div{
     padding: 5px;
 }
-
-.grid-item1{
-
-}
-.grid-item2{
-}
 .grid-item3{
     grid-column: span 2;
-
 }
 .grid-item4{
     width: 50%;
     grid-column: span 1;
-
 }
 .grid-item5{
     width: 50%;
     grid-column: span 1;
-
-
 }
 .grid-item6{
     width: 50%;
-
 }
 .grid-item7{
     grid-column: span 2;
