@@ -22,7 +22,7 @@
     padding: 10px;
     transition: height 0.75s;
 }
-.form-decor input:focus {
+.form-decor input:not(#payment):focus {
     border: 2px solid #555;
     height: 45px;
 }
@@ -84,3 +84,12 @@
 .button:hover {
     background-color: darkgray;
 }
+.checkbox {
+    vertical-align: middle;
+    font-size: 1rem;
+}
+[type="checkbox"]
+{
+    vertical-align:middle;
+}
+
