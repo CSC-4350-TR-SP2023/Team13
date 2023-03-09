@@ -22,6 +22,33 @@
 <body>
 <form>
     <h1>Enter Your Information</h1>
+
+    <div class="container">
+        <label for="user">
+            <span>Username</span>
+            <input type="text" id="user" name="user" placeholder="Username">
+        </label>
+        <label for="pass">
+            <span>Password</span>
+            <input type="text" id="pass" name="pass" placeholder="Password">
+        </label>
+    </div>
+
+    <label for="label1">Which one are you?</label>
+    <div class="radio-group">
+        <input type="radio" id="label1" name="label" value="Buyer">
+        <label for="label1">Buyer</label>
+        <input type="radio" id="label2" name="label" value="Seller">
+        <label for="label2">Seller</label>
+        <input type="radio" id="label3" name="label" value="Both">
+        <label for="label3">Both</label>
+    </div>
+    <p style="color:red; font-size:12px">*Warning: you can't change your identity once you've selected an option!</p>
+
+    <br>
+    <hr color="black" width="100%">
+    <br>
+
     <div class="container">
         <label for="first">
             <span>First Name</span>
@@ -106,32 +133,6 @@
             </select>
         </label>
     </div>
-
-    <br>
-    <hr color="black" width="100%">
-    <br>
-
-    <div class="container">
-        <label for="user">
-            <span>Username</span>
-            <input type="text" id="user" name="user" placeholder="Username">
-        </label>
-        <label for="pass">
-            <span>Password</span>
-            <input type="text" id="pass" name="pass" placeholder="Password">
-        </label>
-    </div>
-
-    <label for="label1">Which one are you?</label>
-    <div class="radio-group">
-        <input type="radio" id="label1" name="label" value="Buyer">
-        <label for="label1">Buyer</label>
-        <input type="radio" id="label2" name="label" value="Seller">
-        <label for="label2">Seller</label>
-        <input type="radio" id="label3" name="label" value="Both">
-        <label for="label3">Both</label>
-    </div>
-    <p style="color:red; font-size:12px">*Warning: you can't change your identity once you've selected an option!</p>
     <br>
 
     <input type="submit" value="Register">
