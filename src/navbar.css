@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+}
+.nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 80px;
+    padding: 0 50px;
+  }
+
+.nav li {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.nav a {
+    color: whitesmoke;  
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+.nav a:visited {
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: cornsilk;
+    color: black;
+} 
+.logo a:hover{
+   background-color: transparent;
+   color: white;
+}
+
+
+.nav .link{
+    display: flex;
+}
+.nav #logo-name{
+    text-decoration: none;
+}
+.nav .name{
+    text-align: right;
+    flex-grow: 1;
+}
+

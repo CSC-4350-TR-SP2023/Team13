@@ -3,42 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Wi-Find WiFi Information</title>
-    <link rel="stylesheet" href="sellerStyleSheet.css"/>
+    <link href="sellerStyleSheet.css" rel="stylesheet"/>
 </head>
 <body>
-<a class="logo" href="Login.html">
-    <header>Wi-Find</header>
-</a>
-
-<div class="nav" >
-    <a href="#">Profile</a>
-    <a href="#">Sell Wi-Fi</a>
-    <a href="#">Buy Wi-Fi</a>
-</div>
+<div id="nav-placeholder"></div>
+<script src="navbar.js"></script>
 <div>
     <h1>Wi-Fi Information</h1>
 </div>
 <div class="form-flex-container">
-    <form action="wifiInfoInput.php">
+    <form action="wifiInfoInput.php" class="form-grid">
         <label for="provider">Internet Provider</label>
-        <input type="text" id="provider" name="intprovider">
+        <input id="provider" name="provider" type="text">
         <label for="netname">Network Name(SSID)</label>
-        <input type="text" id="netname" name="netname">
+        <input id="netname" name="netname" type="text">
         <label for="pass">Network Password</label>
-        <input type="text" id="pass" name="password">
+        <input id="pass" name="password" type="text">
 
         <p>Security Type</p>
-        <input type="radio" id="wep" name="security_type" value="WEP">
+        <input id="wep" name="wep" type="radio" value="WEP">
         <label for="wep">WEP</label>
-        <input type="radio" id="wpa" name="security_type" value="WPA">
+        <input id="wpa" name="wpa" type="radio" value="WPA">
         <label for="wpa">WPA</label>
-        <input type="radio" id="wpa2" name="security_type" value="WPA2">
+        <input id="wpa2" name="wpa2" type="radio" value="WPA2">
         <label for="wpa2">WPA2</label>
 
         <p>WiFi Frequency Bands</p>
-        <input type="checkbox" id="ghz2.4" value="2.4GHz">
+        <input id="ghz2.4" type="checkbox" value="2.4GHz">
         <label for="ghz2.4">2.4GHz</label>
-        <input type="checkbox" id="ghz5" value="5GHz">
+        <input id="ghz5" type="checkbox" value="5GHz">
         <label for="ghz5">5GHz</label>
 
         <input type="submit" value="Submit">
