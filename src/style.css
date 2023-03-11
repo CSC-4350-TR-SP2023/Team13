@@ -82,28 +82,6 @@ select {
     border: 1px solid grey
 }
 
-.logo{
-    text-align: left;
-    font-size: xxx-large;
-}
-a:link,a:visited{
-    color: unset;
-    text-decoration: unset;
-}
-.nav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.nav a {
-    float: left;
-    color: whitesmoke;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-.nav a:hover {
-    background-color: cornsilk;
-    color: black;
-}
-
+.link a {
+    display: inline-block;
+  }
